@@ -18,10 +18,9 @@ function myname() {
   
     // 정답과 비교
     if (userAnswer === "설") {
-        alert("맞았습니다!");
+        alert("맞았습니다!");}
     if (userAnswer === "설이") {
         alert("맞았습니다!");
-    } 
     } else {
         alert("틀렸습니다!");
     }
