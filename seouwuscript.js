@@ -25,3 +25,11 @@ function myname() {
         alert("틀렸습니다!");
     }
   }
+  function enterkey1() {
+        if (window.event.keyCode == 13) {
+             myname();}
+        }
+ function enterkey2() {
+            if (window.event.keyCode == 13) {
+                 catname();}
+            }        
