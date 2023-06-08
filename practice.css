@@ -45,6 +45,7 @@ body{
     padding: 10px;
     border: 1px solid black;
     text-align: center;
+    border-image: 1px solid black;
   }
   form{
     font-family: 'Courier New', Courier, monospace;
