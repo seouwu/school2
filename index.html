@@ -11,10 +11,17 @@
   <div>
     <div id="title">
       <h1><a href="index.html">SEOWOO's WEB</a></h1>
-      <!-- <div>
-        <h5><script>document.write("현재 : "+today);</script></h5>
-      </div> -->
     </div>
+    <div>
+      <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+    ">
+   </div>
     <nav>
       <ol>
         <li><a href="index.html">HOME</a></h1></li>
@@ -24,6 +31,9 @@
         <li><a href="Iog_In.html">Log In</a></li>
       </ol>
     </nav>
+    <div id="time">
+      <h5><script>document.write("현재 : "+today);</script></h5>
+    </div>
     <div id="article">
       <h2>SEOWOO's WEB</h2>
       <p> SEOWOO의 홈페이지 입니다.<p>
