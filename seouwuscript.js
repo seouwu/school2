@@ -1,4 +1,4 @@
-// let today = new Date();
+let today = new Date();
 function myname() {
     let userAnswer = document.getElementById("mynameinput").value; // 사용자가 입력한 답
   
@@ -33,3 +33,9 @@ function myname() {
             if (window.event.keyCode == 13) {
                  catname();}
             }        
+    function daytime(){
+        document.body.style.backgroundColor = 'white';
+        document.body.style.color = 'black';
+    }
+    
+    
