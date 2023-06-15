@@ -1,11 +1,11 @@
 body{
     margin:0px;
     position: relative;
-    background-color: white;
+    background-color:rgb(211, 221, 255);
     color:black;
   }
   a {
-    background-color: white;
+    background-color: rgb(211, 221, 255);
     color:black;
     text-decoration: none;
     font-family:'Times New Roman', Times, serif;
@@ -41,6 +41,9 @@ body{
     letter-spacing: 5px;
     display: inline;
   }
+  ol li a{
+    background-color: white;
+  }
   #article{
     padding: 10px;
     border: 1px solid black;
@@ -72,7 +75,8 @@ body{
   footer{
     padding: 10px;
     border: 1px solid black;
-    height: 50px;
+    height: 30%;
+    padding-bottom: 180px;
     text-align: center;
     background-color: black;
     color: white;
